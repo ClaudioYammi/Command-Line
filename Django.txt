@@ -1,0 +1,19 @@
+Créer un projet :
+django-admin startproject nom_du_projet
+
+Créer une application :
+python manage.py startapp nom_de_l_app
+
+Gestion de la Base de Données
+Créer les tables de la base de données (migrations) :
+python manage.py migrate
+
+Créer un fichier de migration pour les modifications de modèles :
+python manage.py makemigrations
+
+Vérifier l'état des migrations :
+python manage.py showmigrations
+
+Lancer le serveur de développement :
+python manage.py runserver
+
